@@ -5,11 +5,11 @@ require 'fluent/plugin/wildtail/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-wildtail"
-  spec.version       = Fluent::Plugin::Wildtail::VERSION
+  spec.version       = Fluent::Plugin::WildTail::VERSION
   spec.authors       = ["Sho Hashimoto"]
   spec.email         = ["hashimoto@shokai.org"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{wildcard enabled tail plugin for fluentd}
+  spec.summary       = spec.description
   spec.homepage      = ""
   spec.license       = "MIT"
 

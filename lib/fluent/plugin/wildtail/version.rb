@@ -1,6 +1,6 @@
 module Fluent
   module Plugin
-    module Wildtail
+    module WildTail
       VERSION = "0.0.1"
     end
   end
