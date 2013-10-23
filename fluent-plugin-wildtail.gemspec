@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Sho Hashimoto"]
   spec.email         = ["hashimoto@shokai.org"]
-  spec.description   = %q{wildcard enabled tail plugin for fluentd}
+  spec.description   = %q{wildcard enabled tail input plugin for fluentd}
   spec.summary       = spec.description
   spec.homepage      = "https://github.com/shokai/fluent-plugin-wildtail"
   spec.license       = "MIT"

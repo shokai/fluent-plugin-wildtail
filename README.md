@@ -1,22 +1,21 @@
 # Fluent::Plugin::Wildtail
 
-TODO: Write a gem description
+wildcard enabled tail input plugin for fluentd.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'fluent-plugin-wildtail'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install fluent-plugin-wildtail
+    $ fluent-gem install fluent-plugin-wildtail
 
 ## Usage
+
+```
+<source>
+  type wildtail
+  path /path/to/logs/*/*.log
+  tag test.debug
+  format /^(?<log>.*)$/
+</source>
+```
 
 TODO: Write usage instructions here
 
