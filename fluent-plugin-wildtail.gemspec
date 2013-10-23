@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fluent/plugin/wildtail/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-wildtail"
-  spec.version       = Fluent::Plugin::WildTail::VERSION
+  spec.version       = "0.0.1"
   spec.authors       = ["Sho Hashimoto"]
   spec.email         = ["hashimoto@shokai.org"]
   spec.description   = %q{wildcard enabled tail plugin for fluentd}
