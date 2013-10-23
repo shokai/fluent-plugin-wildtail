@@ -10,10 +10,10 @@ Gem::Specification.new do |spec|
   spec.email         = ["hashimoto@shokai.org"]
   spec.description   = %q{wildcard enabled tail plugin for fluentd}
   spec.summary       = spec.description
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/shokai/fluent-plugin-wildtail"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split($/)
+  spec.files         = `git ls-files`.split($/).reject{|i| i=="Gemfile.lock" }
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
